@@ -1,0 +1,11 @@
+1.0.0
+
+CHANGELOG:
+
+v1.0.0 (2024-06-30)
+- Initial release
+- Interactive installer with custom path support
+- Simple logging system with timestamped files
+- Quick status checking
+- Clean folder organization
+- Cross-platform compatibility (macOS, Linux, WSL)
