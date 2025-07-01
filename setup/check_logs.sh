@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Chat logs management script
-CHAT_DIR="$HOME/Desktop/warp_chat_logs"
+CHAT_DIR="$WARP_LOGGER_PATH/walp_logs"
 
 echo "=== Chat Logs Status ==="
 echo "Location: $CHAT_DIR"

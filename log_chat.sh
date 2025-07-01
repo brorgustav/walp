@@ -3,7 +3,7 @@
 # Chat logging script for Warp conversations
 # Usage: ./log_chat.sh "brief description of chat"
 
-CHAT_DIR="$HOME/Desktop/warp_chat_logs"
+CHAT_DIR="walp_logs"
 TIMESTAMP=$(date "+%Y-%m-%d_%H-%M-%S")
 DESCRIPTION=${1:-"general_chat"}
 

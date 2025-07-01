@@ -12,7 +12,7 @@ echo "=========================================="
 echo
 
 # Default installation directory (in current working directory)
-DEFAULT_DIR="$(pwd)/warp-logger_build"
+DEFAULT_DIR="$(pwd)/walp_build"
 
 echo "This will install the Warp Chat Logger system."
 echo "Default installation location: $DEFAULT_DIR"
@@ -28,7 +28,7 @@ fi
 echo
 echo "Installing to: $INSTALL_DIR"
 echo
-
+LOGS_DIR="$INSTALL_DIR/walp_logs"
 # Check if directory already exists
 if [ -d "$INSTALL_DIR" ]; then
     echo "⚠️  Directory already exists: $INSTALL_DIR"
@@ -43,6 +43,8 @@ fi
 echo "Creating directories..."
 mkdir -p "$INSTALL_DIR"
 mkdir -p "$INSTALL_DIR/setup"
+mkdir -p "$INSTALL_DIR/walp_logs"
+
 
 echo "Copying files..."
 # Check if source files exist
@@ -192,3 +194,4 @@ echo "📚 For more info, check the README.md in the installation folder."
 echo
 echo "Happy logging! 🎉"
 
+source "$SHELL_PROFILE"
